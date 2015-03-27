@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/addTitleTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="Title" android:layout_below="@id/addBookTitle" android:layout_alignParentLeft="true" />
+    <EditText android:id="@id/addTitleET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/addTitleTV" android:layout_alignRight="@id/addTitleTV">
+        <requestFocus />
+    </EditText>
+    <TextView android:id="@id/addAuthorTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="Author" android:layout_below="@id/addTitleET" android:layout_alignLeft="@id/addTitleET" />
+    <EditText android:id="@id/addAuthorET" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/addAuthorTV" android:layout_alignLeft="@id/addAuthorTV" android:layout_alignRight="@id/addTitleET" />
+    <EditText android:id="@id/addISBNEt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/addISBNTv" android:layout_alignLeft="@id/addISBNTv" android:inputType="number" />
+    <TextView android:id="@id/addISBNTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ISBN" android:layout_below="@id/addAuthorET" android:layout_alignLeft="@id/addAuthorET" />
+    <TextView android:id="@id/addCatTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Category" android:layout_below="@id/addISBNEt" android:layout_alignLeft="@id/addISBNEt" />
+    <Spinner android:id="@id/addCatspinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/addCatTV" android:layout_alignLeft="@id/addCatTV" />
+    <TextView android:id="@id/addRatin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ratings" android:layout_below="@id/addCatspinner" android:layout_alignLeft="@id/addCatspinner" />
+    <RatingBar android:id="@id/rate1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="2.0" android:stepSize="1.0" android:layout_below="@id/addRatin" android:layout_alignLeft="@id/addRatin" />
+    <TextView android:id="@id/addBookTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add New Book" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/addBookSubmit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Update" android:layout_below="@id/rate1" android:layout_alignParentLeft="true" />
+</RelativeLayout>

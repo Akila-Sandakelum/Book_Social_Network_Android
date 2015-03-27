@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/add_school_booklist_Name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="Add Book" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <EditText android:id="@id/add_school_booklist_TitleEt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/add_school_booklist_Title" android:layout_alignLeft="@id/add_school_booklist_Title" />
+    <TextView android:id="@id/add_school_booklist_Title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="32.0dip" android:text="Title" android:layout_below="@id/add_school_booklist_Name" android:layout_alignParentLeft="true" />
+    <TextView android:id="@id/add_school_booklist_Author" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="Author" android:layout_below="@id/add_school_booklist_TitleEt" android:layout_alignLeft="@id/add_school_booklist_TitleEt" />
+    <EditText android:id="@id/add_school_booklist_AuthorEt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/add_school_booklist_Author" android:layout_alignLeft="@id/add_school_booklist_Author" />
+    <Button android:id="@id/add_school_booklist_Btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:text="Add Book" android:layout_below="@id/add_school_booklist_AuthorEt" android:layout_alignLeft="@id/add_school_booklist_AuthorEt" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relativeLayout1" android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <View android:id="@id/view2" android:background="#ffababab" android:layout_width="2.0dip" android:layout_height="45.0dip" android:layout_marginLeft="19.0dip" android:layout_toRightOf="@id/book_image" android:layout_alignTop="@id/book_image" />
+        <ImageView android:id="@id/book_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_launcher" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/shop_bookTITLE" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:text="Name" android:layout_toRightOf="@id/view2" android:layout_alignTop="@id/view2" />
+        <TextView android:id="@id/book_QtyTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quantity :" android:layout_below="@id/shop_bookTITLE" android:layout_centerHorizontal="true" />
+        <TextView android:id="@id/book_Qty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="number" android:layout_toRightOf="@id/book_QtyTV" android:layout_alignBaseline="@id/book_QtyTV" android:layout_alignBottom="@id/book_QtyTV" />
+    </RelativeLayout>
+</RelativeLayout>

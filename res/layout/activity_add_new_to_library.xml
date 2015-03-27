@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textViewAddNew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_new_book" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="34.0dip" android:layout_marginTop="36.0dip" android:text="@string/book_title" android:layout_below="@id/textViewAddNew" android:layout_alignParentLeft="true" />
+    <EditText android:id="@id/editTextTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/textViewTitle" android:layout_alignLeft="@id/textViewTitle" android:inputType="text">
+        <requestFocus />
+    </EditText>
+    <TextView android:id="@id/textViewAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/author_name" android:layout_below="@id/editTextTitle" android:layout_alignLeft="@id/editTextTitle" />
+    <TextView android:id="@id/textViewISBN" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/isbn_number" android:layout_below="@id/editTextAuthor" android:layout_alignLeft="@id/editTextAuthor" />
+    <EditText android:id="@id/editTextAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_below="@id/textViewAuthor" android:layout_alignLeft="@id/textViewAuthor" android:inputType="textPersonName" />
+    <EditText android:id="@id/editTextReview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_above="@id/ratingBar1" android:inputType="text" />
+    <TextView android:id="@id/textViewRaview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rating" android:layout_below="@id/editTextAuthor" android:layout_alignLeft="@id/editTextAuthor" />
+    <RatingBar android:id="@id/ratingBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/buttonAdd" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/buttonAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" android:text="@string/button_add" android:layout_alignRight="@id/editTextReview" android:layout_alignParentBottom="true" />
+</RelativeLayout>

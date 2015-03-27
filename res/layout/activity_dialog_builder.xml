@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:background="#ffffbb33" android:layout_width="320.0dip" android:layout_height="30.0dip" android:scaleType="center" android:layout_weight="0.43" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="20.0sp" android:id="@id/tVbookTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:hint="Book Title :" />
+        <TextView android:textSize="17.0sp" android:id="@id/textViewBtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:hint="Title" android:layout_weight="0.43" />
+        <TextView android:textSize="20.0sp" android:id="@id/tVbookAuther" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:hint="Author :" />
+        <TextView android:textSize="17.0sp" android:id="@id/textViewAname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:hint="Author name" />
+        <TextView android:textSize="20.0sp" android:id="@id/tVreview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:hint="Rating :" />
+        <RatingBar android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/serviceBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="4.0" android:stepSize="0.0" android:isIndicator="true" />
+        <Button android:id="@id/Db_add_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="10.0dip" android:text="Add to My Library" />
+    </LinearLayout>
+</RelativeLayout>

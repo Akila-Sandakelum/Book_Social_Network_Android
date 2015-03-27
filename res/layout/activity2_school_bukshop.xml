@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:layout_gravity="center_horizontal" android:id="@id/signupSchool_shop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Sign Up" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="20.0dip">
+        <TextView android:id="@id/username_school_shopTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" />
+        <EditText android:id="@id/username_school_shopET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+        <TextView android:id="@id/pass_school_shopTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" />
+        <EditText android:id="@id/pass_school_shopET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword" />
+        <TextView android:id="@id/confirmpass_school_shopTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Confirm Password" />
+        <EditText android:id="@id/confirmpass_school_shopET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword" />
+        <TextView android:id="@id/school_shop_nameTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" />
+        <EditText android:id="@id/school_shop_nameET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="text" />
+        <TextView android:id="@id/school_shop_loctnTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location" />
+        <EditText android:id="@id/school_shop_loctnET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="text" />
+        <Button android:id="@id/school_shop_signup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:text="Signup" />
+    </LinearLayout>
+</LinearLayout>

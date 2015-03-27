@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:orientation="vertical" android:id="@id/widget32" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:id="@id/widget34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_library" />
+    <AbsoluteLayout android:id="@id/widget39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <EditText android:textSize="18.0sp" android:id="@id/searchField" android:layout_width="190.0dip" android:layout_height="wrap_content" android:text="@string/search_field" android:ems="10" android:layout_x="14.0dip" android:layout_y="5.0dip" android:inputType="text" />
+        <Button android:id="@id/buttonSearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_search" android:layout_x="240.0dip" android:layout_y="6.0dip" />
+    </AbsoluteLayout>
+    <TableRow android:orientation="horizontal" android:id="@id/widget48" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/column_title" />
+        <TextView android:id="@id/textViewAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/column_author" />
+        <TextView android:id="@id/textViewRatings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/column_rating" />
+        <TextView android:id="@id/textViewReview" android:layout_width="83.0dip" android:layout_height="wrap_content" android:text="@string/column_review" />
+    </TableRow>
+    <TableRow android:orientation="horizontal" android:id="@id/widget56" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <TableRow android:orientation="horizontal" android:id="@id/widget48" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textViewTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/textViewAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/TextViewRatings" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/TextViewReview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </TableRow>
+</TableLayout>

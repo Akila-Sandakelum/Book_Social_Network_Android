@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <View android:id="@id/view1" android:background="#ffababab" android:layout_width="2.0dip" android:layout_height="45.0dip" android:layout_marginLeft="19.0dip" android:layout_toRightOf="@id/frnds_image" android:layout_alignTop="@id/frnds_image" />
+        <TextView android:textSize="20.0dip" android:id="@id/comNameTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="Name" android:layout_toRightOf="@id/view1" android:layout_alignTop="@id/view1" />
+        <TextView android:textSize="12.0dip" android:id="@id/comTownTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hometown" android:layout_alignLeft="@id/comNameTV" android:layout_alignBottom="@id/view1" />
+        <ImageView android:id="@id/frnds_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/ic_launcher" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

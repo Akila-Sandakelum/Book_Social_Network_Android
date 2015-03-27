@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0sp" android:id="@id/editProf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="               Edit Profile" android:layout_centerHorizontal="true" />
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/editProf" android:layout_alignLeft="@id/editProf">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <TextView android:id="@id/editnameTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Username" />
+            <EditText android:id="@id/editnameET" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/editPassTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" />
+            <EditText android:id="@id/editPassET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword" />
+            <TextView android:id="@id/confeditPassTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Confirm Password" />
+            <EditText android:id="@id/confeditPassET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword" />
+            <TextView android:id="@id/editFirstNameTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="First Name" />
+            <EditText android:id="@id/editFirstNameET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+            <TextView android:id="@id/editSecondTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Second Name" />
+            <EditText android:id="@id/editSecondET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+            <TextView android:id="@id/editLocationTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location" />
+            <EditText android:id="@id/editLocationET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+            <TextView android:id="@id/editGender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gender" />
+            <RadioGroup android:id="@id/genradioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/editMale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Male" />
+                <RadioButton android:id="@id/editFemale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Female" />
+            </RadioGroup>
+            <TextView android:id="@id/editDoBTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date of Birth" />
+            <EditText android:id="@id/editDoBET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="date" />
+            <Button android:layout_gravity="center" android:id="@id/Update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Update" style="?android:attr/buttonStyleSmall" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

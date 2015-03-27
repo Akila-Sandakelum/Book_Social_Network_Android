@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:layout_gravity="center_horizontal" android:id="@id/user_signup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sign Up" />
+    <ScrollView android:id="@id/usr_signup_scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+            <TextView android:id="@id/user_signup_nameTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username" />
+            <EditText android:id="@id/user_signup_nameET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+            <TextView android:id="@id/user_signup_firstNameTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="First Name" />
+            <EditText android:id="@id/user_signup_firstNameET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+            <TextView android:id="@id/user_signup_secondNameTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Second Name" />
+            <EditText android:id="@id/user_signup_secondNameET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPersonName" />
+            <TextView android:id="@id/user_signup_passTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password" />
+            <EditText android:id="@id/user_signup_passET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword" />
+            <TextView android:id="@id/user_signup_locationTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location" />
+            <EditText android:id="@id/user_signup_locationET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+            <TextView android:id="@id/genderSignup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gender" />
+            <RadioGroup android:id="@id/signupradioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/male" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Male" />
+                <RadioButton android:id="@id/female" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Female" />
+            </RadioGroup>
+            <TextView android:id="@id/user_signup_dobTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date of Birth" />
+            <EditText android:id="@id/user_signup_dobET" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="YYYY.MM.DD" android:ems="10" android:inputType="date" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/signup_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" android:width="250.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

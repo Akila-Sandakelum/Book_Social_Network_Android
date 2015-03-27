@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.test">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@android:style/Theme.Holo">
+        <activity android:label="@string/app_name" android:name="com.booknetwork.app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_edit_profile" android:name="com.booknetwork.app.EditProfile"/>
+        <activity android:label="@string/title_activity_my_library" android:name="com.booknetwork.app.MyLibrary"/>
+        <activity android:label="@string/title_activity_profile" android:name="com.booknetwork.app.Profile"/>
+        <activity android:label="@string/title_activity_activity2" android:name="com.booknetwork.app.Activity2"/>
+        <activity android:label="@string/title_activity_activity3" android:name="com.booknetwork.app.Activity3"/>
+        <activity android:label="@string/title_activity_" android:name="com.booknetwork.app.Activity"/>
+        <activity android:label="@string/title_activity_add_new_to_library" android:name="com.booknetwork.app.AddNewToLibrary"/>
+        <activity android:label="@string/title_activity_table" android:name="com.booknetwork.app.Table"/>
+        <activity android:label="@string/title_activity_my_review" android:name="com.booknetwork.app.MyReview"/>
+        <activity android:label="@string/title_activity_edit_book" android:name="com.booknetwork.app.EditBook"/>
+        <activity android:label="@string/title_activity_friendlist" android:name="com.booknetwork.app.Friendlist"/>
+        <activity android:label="@string/title_activity_bookstores" android:name="com.booknetwork.app.Bookstores"/>
+        <activity android:label="@string/title_activity_schools" android:name="com.booknetwork.app.Schools"/>
+        <activity android:label="@string/title_activity_wishlist" android:name="com.booknetwork.app.Wishlist"/>
+        <activity android:label="@string/title_activity_edit_library" android:name="com.booknetwork.app.Edit_library"/>
+        <activity android:label="@string/title_activity_edit_wishlist" android:name="com.booknetwork.app.Edit_wishlist"/>
+        <activity android:label="@string/title_activity_school__main" android:name="com.booknetwork.app.School_MainActivity"/>
+        <activity android:label="@string/title_activity_school_itemlist" android:name="com.booknetwork.app.School_itemlist"/>
+        <activity android:name="com.booknetwork.app.School_Shop_Signup"/>
+        <activity android:name="com.booknetwork.app.User_Signup"/>
+        <activity android:name="com.booknetwork.app.School_Shop_Profile"/>
+        <activity android:name="com.booknetwork.app.EditSchool_Shop_Profile"/>
+        <activity android:name="com.booknetwork.app.ShopBookList"/>
+        <activity android:name="com.booknetwork.app.ShopBookMenu"/>
+        <activity android:name="com.booknetwork.app.EditShoopBookList"/>
+        <activity android:name="com.booknetwork.app.SchoolBookLIst"/>
+        <activity android:name="com.booknetwork.app.EditSchoolBookList"/>
+        <activity android:name="com.booknetwork.app.SearchBookResponse">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.booknetwork.app.DialogBuilder" android:theme="@android:style/Theme.Holo.Dialog"/>
+    </application>
+</manifest>

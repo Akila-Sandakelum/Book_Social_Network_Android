@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/school_shop_Wishlist" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="Wishlist" android:layout_below="@id/school_shop_Library" android:layout_alignLeft="@id/school_shop_Library" />
+    <Button android:id="@id/school_shop_Library" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="Library" android:layout_below="@id/school_shop_Profile" android:layout_alignLeft="@id/school_shop_Profile" />
+    <Button android:id="@id/school_shop_Profile" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="59.0dip" android:text="Profile" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

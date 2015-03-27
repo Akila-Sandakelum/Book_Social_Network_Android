@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/shape1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/school_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_launcher" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <View android:id="@id/view2" android:background="#ffababab" android:layout_width="2.0dip" android:layout_height="45.0dip" android:layout_marginLeft="17.0dip" android:layout_toRightOf="@id/school_image" android:layout_alignTop="@id/school_image" />
+        <TextView android:textSize="20.0sp" android:id="@id/school_shop_names" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:text="Name" android:layout_toRightOf="@id/view2" android:layout_alignTop="@id/view2" />
+        <TextView android:id="@id/school_shop_authors" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Author" android:layout_alignLeft="@id/school_shop_names" android:layout_alignBottom="@id/view2" />
+    </RelativeLayout>
+</LinearLayout>
